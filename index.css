@@ -1,0 +1,158 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 1000px;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 35px;
+    padding-bottom: 10px;
+    border: 5px solid peru;
+    height: 650px;
+}   
+   
+.cabecera h1{
+    text-align: center;
+    justify-items: auto;
+}
+
+.cabecera p{
+    text-align: center;
+    justify-items: auto;
+}
+    
+article{
+    width: 300px;
+    margin-top: 50px;
+    height: 400px;
+    align-items: center;
+    margin: auto;
+    background-color: aquamarine;
+} 
+    
+.main_figuras1 {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+}
+
+.main_figuras1 input{
+    margin-bottom: 30px;
+    margin-top: 50px;
+    height: 30px;
+    width: 80%;
+    border-radius: 15px;
+}
+
+    
+.main_figuras1 button{
+    background-color:sandybrown;
+    border-radius: 8px;
+    margin-top: 30px;
+    height: 25px;
+}
+
+.main_figuras1 label{
+    font-size: 18px;
+}
+    
+.main_figuras2 {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.main_figuras2 input{
+    margin-bottom: px;
+    margin-top: 10px;
+    height: 20px;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.main_figuras2 button{
+    margin-top: 15px;
+    background-color: sandybrown;
+    border-radius: 10px;
+    height: 30px;
+    width: 130px;
+}
+
+.main_figuras2 label {
+    font-size: 20px;
+}
+    
+.main_figuras3 {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    text-align: center;
+    float: right;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+.main_figuras3 h2{
+    margin-bottom: 50px;
+}
+
+.main_figuras3 input {
+   
+    width: 250px;
+    height: 30px;
+    margin-top: 80px;
+    border-radius: 15px;
+}
+
+.main_figuras3 button{
+    margin-top: 40px;
+    height: 25px;
+    background-color: sandybrown;
+    border-radius: 10px;
+}
+
+.main_figuras3 label{
+    font-size: 25px;
+    
+}
+    
+    
+    
+   
+    
+
+    
+   
+
+    
+    
+    
+   
+    
+
+
+
+
+    
+   
+
