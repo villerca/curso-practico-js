@@ -145,10 +145,81 @@ function calcularAreaCirculo() {
     alert("El perímetro del circulo es: " + area + "cm^2");
 }
 
+// Calculo de la altura 
 
 
 
 
+/*function evaluar(lado1, lado2, ladoB){
+    //var tipoDeTriangulo;
+    
+    if (lado1 === lado2 && lado1 != ladoB){
+        //tipoDeTriangulo = "Isoceles";
+       //return tipoDeTriangulo
+       const altura = Math.sqrt(lado1**2 - (ladoB**2 /4));
+        console.log("la altura es : " + altura + "cm");
+       
+    }else {
+        alert("El tríangulo no es isoceles");
+    }
+
+    evaluar();*/
+    
+    
+
+
+/*function calcularAlturaIsoceles() {
+    const lado1 = document.getElementById("Inputlado1");
+    const ilado1 = parseFloat(lado1.value);
+
+    const lado2 = document.getElementById("Inputlado2");
+    const ilado2 = parseFloat(lado2.value);
+
+    const ladoB = document.getElementById("InputladoB");
+    const iladoB = parseFloat(ladoB.value);
+
+    if(ilado1 != ilado2){
+        alert("El triangulo no es Isoceles");
+    }
+    else{
+        const chicolado2 = iladoB / 2;
+        const chicoBase = ilado1;
+
+        const chicolado2Cuadrado = chicolado2 * chicolado2;
+        const chicobaseCuadrado = chicoBase * chicoBase;
+
+        const chicolado1 = Math.sqrt(chicobaseCuadrado - chicolado2Cuadrado);
+
+        const grandeAltura = chicolado1;
+        alert(`La altura es: ${grandeAltura}cm`);
+    }
+    
+}*/
+
+
+function calcularAlturaIsoceles(lado1, lado2, ladoB){
+    if(lado1 == lado2 && lado1 != ladoB){
+        console.log("Es isoceles");
+        const cateto = (ladoB / 2) ** 2;
+        const hipotenusa = lado1 ** 2;
+        const altura = Math.sqrt((hipotenusa) - (cateto));
+        console.log("altura"); 
+    }
+    else{
+        console.log("No es isoceles");
+    }
+}
+calcularAlturaIsoceles(5, 5, 8);
+
+
+
+
+
+    
+
+
+
+    
 
 
 
