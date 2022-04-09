@@ -1,0 +1,58 @@
+body {
+    width: 900px;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    border: 5px solid black;
+    
+    
+}
+
+.encabezado {
+    
+    justify-content: space-between;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+.container {
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: tomato;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 5px 8px 0;
+}
+.container form {
+    display: grid;
+    padding: 30px;
+    
+}
+
+.container input {
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    background-color: peachpuff;
+}
+.container button {
+    margin-top: 15px;
+    height: 25px;
+    border-radius: 8px;
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 18px;
+}
+.container label {
+    font-size: 20px;
+    font-weight: bold;
+}
+.container p {
+    font-weight: bold;
+}

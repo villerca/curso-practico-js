@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>salario</title>
+    <link rel="stylesheet" href="./salario.css">
+</head>
+<body class="encabezado">
+    <h1>Calculadora de Capacidad de Ahorro</h1>
+    
+    
+    <p>Es aconsajable saber su capacidad de ahorro para poder saber como enfrentar tiempos futuro.</p>
+
+    <div class="container">
+        <form action="">
+            <label  for="Nombre">Ingrese su nombre</label>
+            <input id="Nombre"  type="text">
+
+            <label  for="Ingresos">Escribe tu Ingresos mensual. 
+            </label>
+            <input id="Ingresos" type="number" value="0">
+
+            <label  for="Gastos"> Cuantos son el total de tus gastos mensual.
+            </label>
+            <input id="Gastos" type="number" value="0">
+
+            <button type="button" onclick="capacidadEndeudamiento()" >Calcular</button>
+            <p id="resultCapacDeuda"></p>
+        </form>
+        
+
+    </div>
+    
+    <script src="./analisis.js"></script>
+</body>
+</html>
